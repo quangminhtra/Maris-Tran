@@ -161,6 +161,24 @@ body::before {
   color: #888 !important;
   margin-bottom: 0.5rem;
 }
+.exp-block .exp-company {
+  font-size: 0.95rem;
+  color: #37B7C3 !important;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+  font-style: italic;
+}
+
+.exp-block .exp-company a {
+  color: #37B7C3 !important;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.exp-block .exp-company a:hover {
+  color: #EBF4F6 !important;
+  text-decoration: underline;
+}
 .exp-block .exp-skills .badge, .project-block .project-skills .badge {
   background: #088395 !important;
   color: #EBF4F6 !important;
@@ -256,4 +274,39 @@ header {
     margin-top: 0.5rem;
     min-width: unset;
   }
+} 
+
+.neumorphic-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #fff, #e3edf7);
+  padding: 0.7em 3em;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px -1px rgba(0,0,0,0.15),
+              -3px -3px 5px -1px rgba(255,255,255,0.7);
+  border: 1px solid rgba(0,0,0,0);
+  cursor: pointer;
+  transition: transform 0.5s;
+  font-size: 1rem;
+}
+.neumorphic-btn svg {
+  width: 2em;
+  height: 2em;
+  align-items: c;
+  vertical-align: middle;
+  transition: transform 0.5s;
+}
+.neumorphic-btn:hover {
+  box-shadow: inset 2px 2px 4px -1px rgba(0,0,0,0.2),
+              inset -2px -2px 4px -1px rgba(255,255,255,0.7),
+              -0.5px -0.5px 0px rgba(255,255,255,1),
+              0.5px 0.5px 0px rgba(0,0,0,0.15),
+              0px 6px 5px -5px rgba(0,0,0,0.05);
+  border: 1px solid rgba(0,0,0,0.1);
+  transform: translateY(0.5em);
+}
+.neumorphic-btn:hover svg {
+  transform: scale(0.9);
+  fill: #333333;
 } 

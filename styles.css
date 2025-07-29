@@ -213,6 +213,8 @@ body::before {
   margin-top: 2rem;
 }
 
+
+
 /* Make main content full width and comfortable for long text */
 .container-xl, .container {
   max-width: 100vw !important;
@@ -289,6 +291,7 @@ header {
   cursor: pointer;
   transition: transform 0.5s;
   font-size: 1rem;
+  margin-top: 0.5em;
 }
 .neumorphic-btn svg {
   width: 2em;

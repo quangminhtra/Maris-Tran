@@ -1,0 +1,56 @@
+header .display-4 {
+  letter-spacing: -0.04em;
+  margin-bottom: 0.75rem;
+}
+
+#title {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+#university,
+#tagline {
+  color: var(--muted);
+}
+
+#tagline {
+  max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#about p,
+.modal-body p,
+.exp-block li,
+.project-block li {
+  line-height: 1.65;
+}
+
+#skills .skill-block h4,
+#projects .project-block h4,
+#experience .exp-block h4,
+#education .exp-block h4 {
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.02em;
+}
+
+#projects .project-block ul,
+#experience .exp-block ul,
+#education .exp-block ul {
+  padding-left: 1.15rem;
+}
+
+#connect .d-flex {
+  gap: 1rem !important;
+}
+
+@media (max-width: 768px) {
+  #connect .d-flex {
+    flex-direction: column;
+    align-items: stretch !important;
+  }
+
+  .connect-link {
+    justify-content: center;
+  }
+}

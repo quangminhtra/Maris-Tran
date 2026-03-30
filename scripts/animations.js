@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   const revealTargets = document.querySelectorAll(
-    'header, section, .skill-block, .exp-block, .project-block, .modal-body > *'
+    'header, section, .skill-block, .exp-block, .project-block'
   );
 
   revealTargets.forEach((element) => element.classList.add('reveal'));
@@ -26,3 +26,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
   revealTargets.forEach((element) => observer.observe(element));
 });
+

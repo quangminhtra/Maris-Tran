@@ -190,39 +190,38 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 3.25rem;
-  min-height: 3.25rem;
-  padding: 0.7rem;
-  border-radius: 999px;
-  border: 1px solid var(--border);
-  background: rgba(255, 255, 255, 0.06);
-  box-shadow: var(--shadow-sm);
-  transition:
-    transform var(--transition-fast),
-    border-color var(--transition-fast),
-    background-color var(--transition-fast),
-    box-shadow var(--transition-fast);
+  background: linear-gradient(to bottom, #fff, #e3edf7);
+  padding: 0.25em 3em;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px -1px rgba(0, 0, 0, 0.15),
+              -3px -3px 5px -1px rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0);
+  cursor: pointer;
+  transition: transform 0.5s, box-shadow 0.5s, border-color 0.5s;
+  font-size: 1rem;
+  margin-top: 0.5em;
 }
 
 .neumorphic-btn svg {
-  width: 1.5rem;
-  height: 1.5rem;
-  fill: var(--accent);
-  transition:
-    transform var(--transition-fast),
-    fill var(--transition-fast);
+  width: 2em;
+  height: 2em;
+  fill: #0092e4;
+  transition: transform 0.5s, fill 0.5s;
 }
 
 .neumorphic-btn:hover {
-  transform: translateY(-2px);
-  border-color: var(--border-strong);
-  background: rgba(55, 183, 195, 0.1);
-  box-shadow: var(--shadow-md);
+  box-shadow: inset 2px 2px 4px -1px rgba(0, 0, 0, 0.2),
+              inset -2px -2px 4px -1px rgba(255, 255, 255, 0.7),
+              -0.5px -0.5px 0 rgba(255, 255, 255, 1),
+              0.5px 0.5px 0 rgba(0, 0, 0, 0.15),
+              0 6px 5px -5px rgba(0, 0, 0, 0.05);
+  border-color: rgba(0, 0, 0, 0.1);
+  transform: translateY(0.5em);
 }
 
 .neumorphic-btn:hover svg {
-  transform: scale(0.96);
-  fill: var(--text);
+  transform: scale(0.9);
+  fill: #333333;
 }
 
 .footer {
@@ -232,6 +231,7 @@
 .footer-copy {
   color: var(--muted);
 }
+
 .text-warning.exp-date,
 .text-warning.project-date,
 .exp-date.text-warning,

@@ -45,7 +45,7 @@ video.img-fluid {
 
 .reveal.is-visible {
   opacity: 1;
-  transform: translateY(0);
+  transform: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -59,3 +59,4 @@ video.img-fluid {
     transition: none;
   }
 }
+

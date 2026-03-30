@@ -9,18 +9,6 @@ main.container-xl {
   padding-right: 0 !important;
 }
 
-main {
-  position: relative;
-  z-index: 1;
-}
-
-header,
-section,
-footer {
-  position: relative;
-  z-index: 1;
-}
-
 header {
   padding: 5.5rem 0 3.5rem;
   margin: 0;

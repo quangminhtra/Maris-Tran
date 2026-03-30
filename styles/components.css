@@ -142,6 +142,20 @@
   transform: translateY(-2px);
 }
 
+.modal {
+  z-index: 2000;
+}
+
+.modal-backdrop {
+  z-index: 1990;
+}
+
+.modal-dialog-scrollable .modal-body,
+.modal-body {
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 .modal-content {
   background: linear-gradient(180deg, rgba(7, 25, 82, 0.98), rgba(6, 21, 61, 0.98));
   color: var(--text);
@@ -238,3 +252,4 @@
 .project-date.text-warning {
   color: #f2c35b !important;
 }
+

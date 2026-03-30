@@ -1,2 +1,2 @@
-# Maris-Tran
-This is my porfolio using Boostrap
+# Marshall-Tran
+This is my portfolio using Bootstrap.

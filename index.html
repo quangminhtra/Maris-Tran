@@ -210,6 +210,34 @@
     <section id="projects" class="mb-5" tabindex="0">
       <h3 class="section-title">Projects</h3>
       <div class="row g-4">
+        <!-- Project : TTC Transit Tracker -->
+        <div class="col-12 col-md-6">
+          <div class="project-block project-summary" tabindex="0" role="button" aria-label="Open Project Modal" data-bs-toggle="modal" data-bs-target="#projectModalTTCTransitTracker">
+            <div class="d-flex align-items-center mb-2">
+              <h4 class="me-2">TTC Transit Tracker - TMU</h4>
+            </div>
+            <div class="project-date text-warning">Toronto Metropolitan University | Jan 2026 - Present</div>
+            <ul>
+              <li>Built a TTC transit tracking platform using <strong>React</strong>, <strong>TypeScript</strong>, <strong>Flask</strong>, <strong>Supabase</strong>, <strong>Firebase Hosting</strong>, <strong>Render</strong>, and <strong>GitHub Actions</strong> to deliver live dashboard views, rapid-line browsing, station detail pages, and transit analytics.</li>
+              <li>Designed and integrated a <strong>RESTful API</strong> with <strong>Flask</strong> and <strong>PostgreSQL/Supabase</strong>, exposing endpoints for alerts, arrivals, rapid transit lines, station details, demand analytics, and route status.</li>
+              <li>Implemented a scheduled data ingestion pipeline for <strong>GTFS-Realtime</strong> and static <strong>GTFS</strong> feeds, generating live vehicle updates, service alerts, subway schedule estimates, and connected route data.</li>
+              <li>Improved reliability and production readiness by adding client-side caching, database storage controls, <strong>Firebase</strong> deployment, <strong>Render</strong> backend hosting, and <strong>GitHub Actions</strong> automation for recurring TTC data refresh jobs.</li>
+            </ul>
+            <div class="project-skills mb-2">
+              <span class="badge bg-accent me-1"><span class="iconify" data-icon="mdi:react"></span> React</span>
+              <span class="badge bg-accent me-1"><span class="iconify" data-icon="mdi:language-typescript"></span> TypeScript</span>
+              <span class="badge bg-accent me-1"><span class="iconify" data-icon="mdi:language-python"></span> Flask</span>
+              <span class="badge bg-accent me-1"><span class="iconify" data-icon="mdi:database"></span> Supabase</span>
+              <span class="badge bg-accent me-1"><span class="iconify" data-icon="mdi:firebase"></span> Firebase Hosting</span>
+              <span class="badge bg-accent me-1"><span class="iconify" data-icon="mdi:cloud"></span> Render</span>
+              <span class="badge bg-accent me-1"><span class="iconify" data-icon="mdi:source-branch"></span> GitHub Actions</span>
+              <span class="badge bg-accent me-1"><span class="iconify" data-icon="mdi:train"></span> GTFS-Realtime</span>
+            </div>
+            <a href="https://ttc-app-tmu.web.app/" target="_blank" class="neumorphic-btn" aria-label="View Project">
+              <svg width="32" height="32" fill="#0092E4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,2.2467A10.00042,10.00042,0,0,0,8.83752,21.73419c.5.08752.6875-.21247.6875-.475,0-.23749-.01251-1.025-.01251-1.86249C7,19.85919,6.35,18.78423,6.15,18.22173A3.636,3.636,0,0,0,5.125,16.8092c-.35-.1875-.85-.65-.01251-.66248A2.00117,2.00117,0,0,1,6.65,17.17169a2.13742,2.13742,0,0,0,2.91248.825A2.10376,2.10376,0,0,1,10.2,16.65923c-2.225-.25-4.55-1.11254-4.55-4.9375a3.89187,3.89187,0,0,1,1.025-2.6875,3.59373,3.59373,0,0,1,.1-2.65s.83747-.26251,2.75,1.025a9.42747,9.42747,0,0,1,5,0c1.91248-1.3,2.75-1.025,2.75-1.025a3.59323,3.59323,0,0,1,.1,2.65,3.869,3.869,0,0,1,1.025,2.6875c0,3.83747-2.33752,4.6875-4.5625,4.9375a2.36814,2.36814,0,0,1,.675,1.85c0,1.33752-.01251,2.41248-.01251,2.75,0,.26251.1875.575.6875.475A10.0053,10.0053,0,0,0,12,2.2467Z"></path></svg>
+            </a>
+          </div>
+        </div>
         <!-- Project : Outdoor Cat Tracker -->
          <div class="col-12 col-md-6">
   <div class="project-block project-summary" tabindex="0" role="button" aria-label="Open Project Modal" data-bs-toggle="modal" data-bs-target="#projectModalOutdoorCatTracker">
@@ -581,6 +609,61 @@
       <!--------------------------------------------------------------------------------------------------------------------------->
 
       <!-- Project Modals Pop Up -->
+
+      <!-- Project: TTC Transit Tracker -->
+      <div class="modal fade modal-fullscreen" id="projectModalTTCTransitTracker" tabindex="-1" aria-labelledby="projectModalTTCTransitTrackerLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered modal-fullscreen">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="projectModalTTCTransitTrackerLabel">TTC Transit Tracker</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="project-skills mb-4">
+                <span class="badge bg-accent me-1">React</span>
+                <span class="badge bg-accent me-1">TypeScript</span>
+                <span class="badge bg-accent me-1">Flask</span>
+                <span class="badge bg-accent me-1">Supabase</span>
+                <span class="badge bg-accent me-1">Firebase Hosting</span>
+                <span class="badge bg-accent me-1">Render</span>
+                <span class="badge bg-accent me-1">GitHub Actions</span>
+                <span class="badge bg-accent me-1">GTFS-Realtime</span>
+              </div>
+
+              <p class="mt-4 mb-4">
+                Full-stack transit platform focused on real-time TTC visibility, rapid-line exploration, station detail views, and backend data workflows for live transit analytics.
+              </p>
+
+              <p class="mt-2 mb-4">
+                Live project:
+                <a href="https://ttc-app-tmu.web.app/" target="_blank" rel="noopener">ttc-app-tmu.web.app</a>
+              </p>
+
+              <h6>Highlights</h6>
+              <ul>
+                <li>Built a TTC transit tracking platform using React, TypeScript, Flask, Supabase, Firebase Hosting, Render, and GitHub Actions to deliver live dashboard views, rapid-line browsing, station detail pages, and transit analytics.</li>
+                <li>Designed and integrated a RESTful API with Flask and PostgreSQL/Supabase, exposing endpoints for alerts, arrivals, rapid transit lines, station details, demand analytics, and route status.</li>
+                <li>Implemented a scheduled data ingestion pipeline for GTFS-Realtime and static GTFS feeds, generating live vehicle updates, service alerts, subway schedule estimates, and connected route data.</li>
+                <li>Improved reliability and production readiness by adding client-side caching, database storage controls, Firebase deployment, Render backend hosting, and GitHub Actions automation for recurring TTC data refresh jobs.</li>
+              </ul>
+
+              <h6>Project Visuals</h6>
+              <div class="project-placeholder my-3">
+                <strong>Placeholder:</strong> TTC dashboard screenshot
+              </div>
+              <div class="project-placeholder my-3">
+                <strong>Placeholder:</strong> Rapid-line browser / station detail screenshot
+              </div>
+              <div class="project-placeholder my-3">
+                <strong>Placeholder:</strong> Transit analytics or architecture diagram
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">&larr; Go Back</button>
+            </div>
+          </div>
+        </div>
+      </div>
       
        <!--Project: Outdoor Cat Tracker -->
       <div class="modal fade modal-fullscreen" id="projectModalOutdoorCatTracker" tabindex="-1" aria-labelledby="projectModalOutdoorCatTracker" aria-hidden="true">
@@ -906,7 +989,7 @@
         <a href="https://www.linkedin.com/in/minhtran3005/" class="connect-link" aria-label="LinkedIn" target="_blank" rel="noopener"><span class="iconify" data-icon="mdi:linkedin"></span> LinkedIn</a>
         <a href="https://github.com/quangminhtra/quangminhtra" class="connect-link" aria-label="GitHub" target="_blank" rel="noopener"><span class="iconify" data-icon="mdi:github"></span> GitHub</a>
         <a href="mailto:qminh30k3@gmail.com" class="connect-link" aria-label="Email"><span class="iconify" data-icon="mdi:email"></span> Email</a>
-        <a href="PDF file - Résumé\Maris_Tran_Resume.pdf" class="connect-link" aria-label="Download Résumé" target="_blank" rel="noopener"><span class="iconify" data-icon="mdi:file-download"></span> Résumé</a>
+        <a href="PDF file - References/Marshall_Tran_Resume.pdf" class="connect-link" aria-label="Download Resume" target="_blank" rel="noopener"><span class="iconify" data-icon="mdi:file-download"></span> Resume</a>
         <a href="PDF file - References/Reference-Letters.pdf" class="connect-link" aria-label="Download Reference Letter" target="_blank" rel="noopener"><span class="iconify" data-icon="mdi:file-certificate"></span> Reference Letter</a>
       </div>
     </section>

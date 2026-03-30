@@ -213,6 +213,15 @@ body::before {
   margin-top: 2rem;
 }
 
+.project-placeholder {
+  background: rgba(8, 131, 149, 0.12);
+  border: 1px dashed #37B7C3;
+  border-radius: 0.75rem;
+  color: #EBF4F6;
+  padding: 1rem;
+  text-align: center;
+}
+
 
 
 /* Make main content full width and comfortable for long text */

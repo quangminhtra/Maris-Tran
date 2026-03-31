@@ -1,3 +1,26 @@
+header {
+  position: relative;
+  overflow: hidden;
+}
+
+header::before {
+  content: '';
+  position: absolute;
+  inset: -18% auto auto 50%;
+  width: 28rem;
+  height: 28rem;
+  transform: translateX(-50%);
+  background: radial-gradient(circle, rgba(55, 183, 195, 0.18) 0%, rgba(55, 183, 195, 0.06) 35%, transparent 72%);
+  filter: blur(10px);
+  pointer-events: none;
+  animation: heroGlowDrift 12s ease-in-out infinite;
+}
+
+header > * {
+  position: relative;
+  z-index: 1;
+}
+
 header .display-4 {
   letter-spacing: -0.04em;
   margin-bottom: 0.75rem;
@@ -66,6 +89,11 @@ header .display-4 {
 }
 
 @media (max-width: 768px) {
+  header::before {
+    width: 20rem;
+    height: 20rem;
+  }
+
   #connect .d-flex {
     flex-direction: column;
     align-items: stretch !important;

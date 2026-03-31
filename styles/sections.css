@@ -40,6 +40,27 @@ header .display-4 {
   padding-left: 1.15rem;
 }
 
+.modal-body figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 1.5rem auto;
+}
+
+.modal-body figure img,
+.modal-body figure video {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal-body figcaption {
+  width: 100%;
+  margin-top: 0.75rem;
+  text-align: center;
+  color: var(--muted);
+}
+
 #connect .d-flex {
   gap: 1rem !important;
 }

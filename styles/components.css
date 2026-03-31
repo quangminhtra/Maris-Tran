@@ -253,3 +253,10 @@
   color: #f2c35b !important;
 }
 
+.ats-highlight {
+  color: #d9fbff;
+  font-weight: 600;
+  padding: 0 0.08rem;
+  border-radius: 0.2rem;
+  box-shadow: inset 0 -0.45em rgba(55, 183, 195, 0.18);
+}
